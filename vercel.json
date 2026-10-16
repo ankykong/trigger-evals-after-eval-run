@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/chain-evals.js": { "maxDuration": 300 }
+  },
+  "crons": [
+    { "path": "/api/chain-evals", "schedule": "*/5 * * * *" }
+  ]
+}
